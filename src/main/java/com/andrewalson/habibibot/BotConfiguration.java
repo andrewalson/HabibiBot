@@ -21,6 +21,7 @@ import java.util.List;
                     .build()
                     .login()
                     .block();
+                client.onDisconnect().block();
 
             for (EventListener<T> listener : eventListeners) {
                 client.on(listener.getEventType())
