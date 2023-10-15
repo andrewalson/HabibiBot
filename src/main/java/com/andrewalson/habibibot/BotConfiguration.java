@@ -1,5 +1,6 @@
 package com.andrewalson.habibibot;
 
+import com.andrewalson.habibibot.events.EventListener;
 import discord4j.core.DiscordClientBuilder;
 import discord4j.core.GatewayDiscordClient;
 import discord4j.core.event.domain.Event;

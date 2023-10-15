@@ -1,4 +1,4 @@
-package com.andrewalson.habibibot;
+package com.andrewalson.habibibot.events;
 
 import discord4j.core.event.domain.message.MessageCreateEvent;
 import org.springframework.stereotype.Service;

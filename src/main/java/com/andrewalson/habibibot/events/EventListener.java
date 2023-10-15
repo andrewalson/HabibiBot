@@ -1,4 +1,4 @@
-package com.andrewalson.habibibot;
+package com.andrewalson.habibibot.events;
 
 import discord4j.core.event.domain.Event;
 import org.slf4j.Logger;
