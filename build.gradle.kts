@@ -20,6 +20,7 @@ dependencies {
     implementation("com.discord4j:discord4j-core:3.2.3")
     implementation("org.springframework.boot:spring-boot-starter-webflux")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
+    runtimeOnly("io.netty:netty-resolver-dns-native-macos:4.1.90.Final:osx-aarch_64")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
